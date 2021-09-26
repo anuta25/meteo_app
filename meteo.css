@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #cce7f1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center
+  
+}
+
+#city {
+    font-size: 20px;
+    border-style: 1px ridge #e6ffff ;
+    padding: 10px;
+    margin: 10px;
+    cursor: grab;
+}
