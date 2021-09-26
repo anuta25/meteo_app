@@ -6,4 +6,4 @@ Basically I am fetching data based on the user input.
 
 ## Screenshots
 
-![screenshot](screenshots\meteo_app_screenshot.PNG)
+![screenshot](https://github.com/anuta25/meteo_app/blob/main/screenshots/meteo_app_screenshot.PNG)
