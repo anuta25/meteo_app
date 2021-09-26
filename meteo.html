@@ -7,14 +7,18 @@
 </head>
 
 <body>
-    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">
-            <input class="form-control" id="city" type="text" placeholder="enter a city name" required> 
+    <section class="container">
+      <div class="first">
+          <input type="text" id="search-box" placeholder="enter a city">
+          <button id="search-button">Search</button>
+       </div>
+       <div class="second">
+           <p class="city"></p>
+           <p class="temperature"></p>
+           <img src="" class="icon">
+           <p class="date"></p>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">text</h5>
-          <p class="card-text">Some quick </p>
-        </div>
+    </section>
 
     <script src="meteo.js"></script>
 </body>

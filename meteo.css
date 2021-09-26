@@ -1,22 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    font-family: sans serif;
     background: #cce7f1;
-    display:flex;
+    text-align: center;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align:center
-  
+    flex-direction: column;
+    position: relative;
 }
 
-#city {
+#search-box,
+#search-button {
     font-size: 20px;
-    border-style: 1px ridge #e6ffff ;
-    padding: 10px;
-    margin: 10px;
+    text-align: center;
+    font-style: italic;
     cursor: grab;
+}
+
+#search-button:hover {
+    background-color: wheat;
+    font-weight: 800;
+}
+
+.second {
+    font-size: 1em;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    position: relative;
+    top: 200px;
 }
